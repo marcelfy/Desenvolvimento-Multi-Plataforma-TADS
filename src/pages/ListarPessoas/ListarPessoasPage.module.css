@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    border: 1px solid white;
+    flex-direction: column;
+}
+
+td, th{
+    padding: 10px;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btnArea{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

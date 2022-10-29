@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 600px; */
+    border: 1px solid white;
+}
+
+.input{
+    padding: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.container p{
+    font-size: 25px;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    padding: 30px;
+}
+
+.areaNumeros{
+    display: flex;
+    margin-top: 10px;
+}

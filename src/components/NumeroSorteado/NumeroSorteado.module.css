@@ -1,0 +1,14 @@
+.circulo{
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    height: 40px;
+    border: 1px solid rgb(249 216 161);
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+

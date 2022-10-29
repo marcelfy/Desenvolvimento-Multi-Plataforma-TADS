@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+  }
+  
+  .titulo{
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #d9ff19;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+  }
