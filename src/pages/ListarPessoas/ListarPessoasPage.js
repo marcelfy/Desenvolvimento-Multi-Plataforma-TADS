@@ -34,11 +34,15 @@ const ListarPessoasPage = () => {
             <th>Nome</th>
             <th>Usuário</th>
             <th>E-mail</th>
+            <th>Cidade</th>
+            <th>Site</th>
           </tr>
           <tr>
             <th>{usuarios?.name}</th>
             <th>{usuarios?.username}</th>
             <th>{usuarios?.email}</th>
+            <th>{usuarios?.address?.street}</th>
+            <th>{usuarios?.website}</th>
           </tr>
         </table>
         <div className={Styles.btnArea}>
